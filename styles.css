@@ -1,44 +1,48 @@
-header{
+div.header{
 	background-color: white;
 	padding: 10px;
 }
-header h1{
+div.header h1{
 	margin: 0;
 }
 div.container{
-	width: 600;
+	width: 600px;
 	margin: auto;
 }
-div.post .post-header div:first-child{
+div.big-post .post-header div:first-child{
 	display: inline-block;
 	width: 80%;
 }
-div.post .post-header div:last-child{
-	width: 20%;
+div.big-post .post-header div:last-child{
+	width: 19%;
 	display: inline-block;
 	text-align: right;
 	padding: 10px;
 	color: gray;
 }
-body {
+div.body {
 	margin: 0;
-	background-color: lightgray;
+	background-color:lightgray;
 }
-div.post{
+div.big-post{
 	background-color: white;
 	margin-top: 10px;
 }
-div.post img{
+div.big-post img{
 	width: 100%;
 }
-div.post h2, div.post p{
+div.big-post h2{
 	padding: 10px;
 	margin: 0;
 	background-color:white;
 }
+div.big-post p {
+	padding: 10px;
+	margin: 0;
+}
 div{
 	box-sizing:  border-box;
 }
-div.post p {
+div.big-post p {
 	background-color: white;
 }
