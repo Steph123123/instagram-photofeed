@@ -1,0 +1,66 @@
+.header {
+    height: 150px;
+    width: 800px;
+    background-color: rgb(59, 58, 58);
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: justify;
+    
+    
+}
+h1 {
+    width: 650px;
+    height: 150px;
+
+}
+img {
+    height: 150px;
+    
+
+
+}
+.body {
+    background-color: lightblue;
+    display: flex;
+    width: 800px;
+    height: 400px;
+}
+.left {
+    width: 400px;
+    font-size: 35px;
+    background-color: lightseagreen;
+
+}
+.right {
+    width: 400px;
+    display: block;
+    background-color: rgb(12, 105, 90);
+    text-align: center;
+    
+
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(59, 58, 58);
+    width: 800px;
+    height: 150px;
+    text-align: center;
+
+}
+button {
+    font-size: 30px;
+
+}
+.postcard {
+    height: 800px;
+    width: 800px;
+}
